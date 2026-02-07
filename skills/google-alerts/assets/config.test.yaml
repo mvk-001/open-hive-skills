@@ -1,0 +1,42 @@
+chat:
+  title: "Google Alerts Digest - Test"
+  webhook_url: ""
+
+model:
+  name: "gemini-2.0-flash"
+  temperature: 0.2
+
+rss_sources:
+  - name: "Google Alerts Today"
+    url: "https://www.google.com/alerts/feeds/05081506615059115896/10847131361176164701"
+
+filtering:
+  enabled: true
+  scoring_prompt: |
+    You are ranking a news item for relevance.
+    Return only valid JSON with keys: include (boolean), score (0 to 1 float), reason (string).
+
+    Keep include=true only for items related to:
+    - AI strategy, products, regulations, security, or market movement.
+
+    Source: {source}
+    Title: {title}
+    Link: {link}
+    Published: {published}
+    Snippet: {snippet}
+    Markdown excerpt: {markdown_excerpt}
+
+  min_score: 0.65
+
+global_summary_prompt: |
+  You are creating a concise global digest.
+  Summarize selected items in 4-7 sentences.
+  Focus on key themes, risks, opportunities, and notable changes across sources.
+
+  Items:
+  {items}
+
+limits:
+  max_items_per_source: 10
+  max_markdown_chars_per_item: 12000
+  max_fetch_concurrency: 8

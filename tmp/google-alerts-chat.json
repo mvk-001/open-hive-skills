@@ -1,0 +1,62 @@
+{
+  "text": "Google Alerts Digest",
+  "cardsV2": [
+    {
+      "cardId": "google-alerts-digest",
+      "card": {
+        "header": {
+          "title": "Google Alerts Digest",
+          "subtitle": "Generated 2026-02-07"
+        },
+        "sections": [
+          {
+            "header": "Global Summary",
+            "widgets": [
+              {
+                "textParagraph": {
+                  "text": "Selected 41 items across sources (OpenAI News: 15, Anthropic: 13, Google AI: 13)."
+                }
+              }
+            ]
+          },
+          {
+            "header": "OpenAI News (15)",
+            "collapsible": true,
+            "uncollapsibleWidgetsCount": 0,
+            "widgets": [
+              {
+                "textParagraph": {
+                  "text": "- <a href=\"https://elcontenido.news/2026/tecnologia/la-ultima-ia-de-openai-fue-creada-utilizando-si-misma-afirma-la-empresa/\">La última IA de OpenAI fue creada utilizando &quot;sí misma&quot;, afirma la empresa. %</a><br>- <a href=\"https://www.infobae.com/tecno/2026/02/07/como-pedirle-a-chatgpt-que-haga-una-caricatura-sobre-tu-vida-con-base-en-lo-que-sabe-de-ti/\">Cómo pedirle a ChatGPT que haga una caricatura sobre tu vida con base en lo que sabe de ti</a><br>- <a href=\"https://www.debate.com.mx/tecnologia/ni-hijos-ni-sobrinos-sam-altman-plantea-que-una-ia-dirija-openai-en-el-futuro-20260207-0194.html\">Ni hijos ni sobrinos: Sam Altman plantea que una IA dirija OpenAI en el futuro - Debate</a><br>- <a href=\"https://gestion.pe/g-de-gestion/reportaje/sobrevivira-el-telefono-inteligente-a-la-era-de-la-inteligencia-artificial-noticia/\">¿Sobrevivirá el teléfono inteligente a la era de la inteligencia artificial? | G-DE-GESTION</a><br>- <a href=\"https://eltiempomx.com/noticia/2026/miles-protestan-porque-open-ai-retirara-gpt-4o-el-13-de-febrero.html\">Miles protestan porque Open AI retirará GPT-4o el 13 de febrero - El Tiempo de Monclova</a><br>- <a href=\"https://www.infobae.com/tecno/2026/02/07/el-fin-de-las-aplicaciones-como-las-conocemos-por-que-el-avance-de-anthropic-amenaza-con-borrar-el-software-tradicional/\">El fin de las aplicaciones como las conocemos: por qué el avance de Anthropic amenaza ... - Infobae</a><br>- <a href=\"https://es.benzinga.com/news/usa/stocks/snowflake-novedades-ia-acuerdo-openai/\">Snowflake impulsa la IA empresarial con nuevas herramientas y una alianza estratégica con OpenAI</a><br>- <a href=\"https://www.infobae.com/tecno/2026/02/07/anthropic-publicara-video-en-el-super-bowl-para-criticar-a-openai-y-los-anuncios-en-chatgpt/\">Anthropic publicará video en el Super Bowl para criticar a OpenAI y los anuncios en ChatGPT</a><br>- <a href=\"https://vanguardia.com.mx/noticias/internacional/planea-ceo-de-openai-que-la-misma-ia-dirija-a-la-empresa-DK19200175\">Planea CEO de OpenAI que la misma IA dirija a la empresa - Vanguardia</a><br>- <a href=\"https://ecosistemastartup.com/anthropic-invierte-millones-en-super-bowl-para-criticar-a-openai/\">Anthropic invierte millones en Super Bowl para criticar a OpenAI - El Ecosistema Startup</a><br>- <a href=\"https://www.lanacion.com.ar/economia/negocios/la-carrera-por-destronar-al-smartphone-la-ia-amenaza-al-duopolio-de-apple-y-android-nid07022026/\">La carrera por destronar al smartphone: la IA amenaza al duopolio de Apple y Android</a><br>- <a href=\"https://isenacode.com/xcode-26-3-permite-a-la-ia-de-openai-y-anthropic-crear-aplicaciones-de-forma-automaticamente/\">Xcode 26.3 permite a la IA de OpenAI y Anthropic crear aplicaciones de forma automáticamente</a><br>- <a href=\"https://kchcomunicacion.com/2026/02/07/anthropic-desafia-el-reinado-del-software-el-ocaso-del-modelo-saas/\">Anthropic desafía el reinado del software: El ocaso del modelo SaaS - KCH FM</a><br>- <a href=\"https://eloutput.com/noticias/aplicaciones/gpt-5-3-codex-de-openai-asi-es-la-nueva-ia-que-programa-software-casi-sola/\">GPT-5.3-Codex de OpenAI : así es la nueva IA que programa software casi sola - El Output</a><br>- <a href=\"https://www.larazon.es/tecnologia-consumo/como-cancelar-la-suscripcion-a-chatgpt-plus_202602076980a4072f00a04688f362d9.html\">Si canjeaste los 6 meses gratuitos de ChatGPT Plus con Movistar, tienes que hacer esto ...</a>"
+                }
+              }
+            ]
+          },
+          {
+            "header": "Anthropic (13)",
+            "collapsible": true,
+            "uncollapsibleWidgetsCount": 0,
+            "widgets": [
+              {
+                "textParagraph": {
+                  "text": "- <a href=\"https://www.infobae.com/tecno/2026/02/07/el-fin-de-las-aplicaciones-como-las-conocemos-por-que-el-avance-de-anthropic-amenaza-con-borrar-el-software-tradicional/\">El fin de las aplicaciones como las conocemos: por qué el avance de Anthropic amenaza ... - Infobae</a><br>- <a href=\"https://www.infobae.com/tecno/2026/02/07/anthropic-publicara-video-en-el-super-bowl-para-criticar-a-openai-y-los-anuncios-en-chatgpt/\">Anthropic publicará video en el Super Bowl para criticar a OpenAI y los anuncios en ChatGPT</a><br>- <a href=\"https://ecosistemastartup.com/anthropic-invierte-millones-en-super-bowl-para-criticar-a-openai/\">Anthropic invierte millones en Super Bowl para criticar a OpenAI - El Ecosistema Startup</a><br>- <a href=\"https://www.xataka.com/basics/claude-23-funciones-algun-truco-para-exprimir-al-maximo-esta-inteligencia-artificial\">Claude: 23 funciones y algún truco para exprimir al máximo esta inteligencia artificial</a><br>- <a href=\"https://elcontenido.news/2026/tecnologia/empleados-de-anthropic-temen-haber-cruzado-una-linea/\">Empleados de Anthropic temen haber cruzado una línea. % - El Contenido</a><br>- <a href=\"https://www.cadena3.com/amp/noticia/tecnologia/pueden-los-agentes-de-ia-convertirse-en-abogados-la-ultima-actualizacion-lo-sugiere_517081\">¿Pueden los agentes de IA convertirse en abogados? La última actualización lo sugiere</a><br>- <a href=\"https://www.diariodecadiz.es/opinion/analisis/ia-amenaza-companias-software_0_2005836251.html\">La IA, ¿una amenaza para las compañías de software? - Diario de Cádiz</a><br>- <a href=\"https://www.lagaceta.com.ar/nota/1123472/sociedad/revelaron-reconocida-empresa-inteligencia-artificial-destruyo-millones-libros-fisicos-para-entrenar-chatbot.html\">Revelaron que una reconocida empresa de Inteligencia Artificial destruyó millones de libros ...</a><br>- <a href=\"https://www.elsiglodetorreon.com.mx/noticia/2026/claude-opus-46-la-ia-que-desafia-a-chatgpt-y-gemini.html\">Claude Opus 4.6, la IA que desafía a ChatGPT y Gemini - El Siglo de Torreón</a><br>- <a href=\"https://kchcomunicacion.com/2026/02/07/anthropic-desafia-el-reinado-del-software-el-ocaso-del-modelo-saas/\">Anthropic desafía el reinado del software: El ocaso del modelo SaaS - KCH FM</a><br>- <a href=\"https://isenacode.com/xcode-26-3-permite-a-la-ia-de-openai-y-anthropic-crear-aplicaciones-de-forma-automaticamente/\">Xcode 26.3 permite a la IA de OpenAI y Anthropic crear aplicaciones de forma automáticamente</a><br>- <a href=\"https://diarioelregionaldelzulia.com/claude-opus-4-6-vs-chatgpt-por-que-la-ia-de-anthropic-lidera/\">Claude Opus 4.6 vs ChatGPT: Por qué la IA de Anthropic lidera - El Regional del Zulia</a><br>- <a href=\"https://gda.com/detalle-de-la-noticia/?article=5978842\">Anthropic mueve el mercado | GDA – Grupo de Diarios América</a>"
+                }
+              }
+            ]
+          },
+          {
+            "header": "Google AI (13)",
+            "collapsible": true,
+            "uncollapsibleWidgetsCount": 0,
+            "widgets": [
+              {
+                "textParagraph": {
+                  "text": "- <a href=\"https://www.cryptopolitan.com/es/influencers-and-big-tech-ai-promotions/\">Ni siquiera 500.000 dólares pueden convencer a los influencers de las redes sociales ...</a><br>- <a href=\"https://www.forbesargentina.com/money/wall-street-castiga-sobregasto-ia-que-cedears-ven-afectados-n85899\">Wall Street castiga el sobregasto en IA: ¿qué Cedears se ven afectados? - Forbes Argentina</a><br>- <a href=\"https://forbes.com.mx/iphone-mas-caro-la-escasez-global-de-chips-de-memoria-pone-a-apple-en-el-centro-de-la-escena/\">¿iPhone más caro? La escasez global de chips de memoria pone a Apple en el centro de la escena</a><br>- <a href=\"https://www.merca20.com/google-lanza-primer-core-update-de-2026-va-dirigido-a-discover-y-esto-es-lo-que-podemos-esperar/\">Google lanza primer core update de 2026: va dirigido a Discover y esto es lo que podemos esperar</a><br>- <a href=\"https://ecosistemastartup.com/la-suite-alternativa-open-source-europea-a-google-workspace/\">La Suite: alternativa open source europea a Google Workspace - El Ecosistema Startup</a><br>- <a href=\"https://mercadotecnia.portada-online.com/2026/02/visibilidad-en-ia-como-lograrla/\">La visibilidad en IA es el nuevo SEO - Portada Online</a><br>- <a href=\"https://ecosistemastartup.com/agentes-ai-como-abogados-opus-4-6-revoluciona-legaltech/\">Agentes AI como abogados: Opus 4.6 revoluciona legaltech - El Ecosistema Startup</a><br>- <a href=\"https://www.fayerwayer.com/internet/2026/02/06/alerta-global-unicef-exige-leyes-penales-contra-la-creacion-de-abuso-infantil-con-inteligencia-artificial/\">UNICEF exige leyes penales contra la creación de abuso infantil con Inteligencia Artificial</a><br>- <a href=\"https://diario.elmundo.sv/tecnomundo/gemini-supera-750-millones-de-usuarios-y-refuerza-su-modelo-por-suscripcion\">Gemini supera 750 millones de usuarios y refuerza su modelo por suscripción</a><br>- <a href=\"https://www.novedadescampeche.com.mx/youtube-se-transforma-el-ceo-revela-problemas-de-ai-slop-y-promete-soluciones/\">YouTube se transforma: el CEO revela problemas de &quot; AI Slop&quot; y promete soluciones</a><br>- <a href=\"https://www.negocios.com/articulo/tech-talks/35-cmo-atrapado-purgatorio-ia/20260207180125478994.html\">El 35% de los Directores de Marketing, atrapado en el purgatorio de la IA - Negocios.com</a><br>- <a href=\"https://www.larazon.es/tecnologia-consumo/google-pixel-10-gratis-movistar_202602066986082e9243cc133c3710f7.html\">El Google Pixel 10 llega gratis a Movistar, aunque también puedes conseguir la versión Pro ...</a><br>- <a href=\"https://tiinside.com.br/es/06/02/2026/Capgemini-y-Google-Cloud-ampl%C3%ADan-su-alianza-estrat%C3%A9gica./\">Capgemini y Google Cloud amplían su alianza estratégica | TI INSIDE Online</a>"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

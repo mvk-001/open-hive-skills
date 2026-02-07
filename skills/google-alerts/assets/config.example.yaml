@@ -1,0 +1,42 @@
+chat:
+  title: "Google Alerts Digest"
+  webhook_url: ""
+
+model:
+  name: "gemini-2.0-flash"
+  temperature: 0.2
+
+rss_sources:
+  - name: "OpenAI News"
+    url: "https://www.google.com/alerts/feeds/01234567890123456789/12345678901234567890"
+  - name: "AI Regulation"
+    url: "https://www.google.com/alerts/feeds/01234567890123456789/09876543210987654321"
+
+filtering:
+  enabled: true
+  scoring_prompt: |
+    You are ranking a news item for relevance.
+    Return only valid JSON with keys: include (boolean), score (0 to 1 float), reason (string).
+    Include the item only when it is high value for strategic monitoring.
+
+    Source: {source}
+    Title: {title}
+    Link: {link}
+    Published: {published}
+    Snippet: {snippet}
+    Markdown excerpt: {markdown_excerpt}
+
+  min_score: 0.65
+
+global_summary_prompt: |
+  You are creating a concise global digest.
+  Summarize the key themes across all selected items in 4-7 sentences.
+  Mention trends, risks, opportunities, and notable shifts.
+
+  Items:
+  {items}
+
+limits:
+  max_items_per_source: 15
+  max_markdown_chars_per_item: 12000
+  max_fetch_concurrency: 8

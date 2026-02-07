@@ -1,0 +1,50 @@
+chat:
+  title: "Google Alerts Digest"
+  webhook_url: ""
+
+model:
+  name: "gemini-3-flash-preview"
+  temperature: 0.2
+
+rss_sources:
+  - name: "OpenAI News"
+    url: "https://www.google.com/alerts/feeds/05081506615059115896/10847131361176164701"
+  - name: "Anthropic"
+    url: "https://www.google.com/alerts/feeds/05081506615059115896/9434553043453321355"
+  - name: "Google AI"
+    url: "https://www.google.com/alerts/feeds/05081506615059115896/17556333364847561912"
+
+filtering:
+  enabled: true
+  scoring_prompt: |
+    You are ranking a news item for relevance.
+    Return only valid JSON with keys: include (boolean), score (0 to 1 float), reason (string).
+    Include the item only when it is high value for strategic monitoring.
+
+    Source: {source}
+    Title: {title}
+    Link: {link}
+    Published: {published}
+    Snippet: {snippet}
+
+  min_score: 0.65
+
+summary_prompt: |
+  You are creating a concise source-level news digest.
+  Summarize the key themes across the selected items in 3-5 sentences.
+  Mention trends, risks, and opportunities where relevant.
+
+  Source: {source}
+  Items:
+  {items}
+
+limits:
+  max_items_per_source: 15
+
+global_summary_prompt: |
+  You are creating a concise global digest.
+  Summarize selected items in 4-7 sentences.
+  Focus on key themes, risks, opportunities, and notable changes across sources.
+
+  Items:
+  {items}
